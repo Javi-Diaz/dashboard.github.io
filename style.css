@@ -1,0 +1,77 @@
+/* GENERAL */
+*{
+	box-sizing: border-box;
+    
+}
+
+body{
+    font-family: sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(rgb(255, 255, 255) 7%, rgb(25, 118, 210));
+    overflow-x: hidden;
+} 
+
+/* TITULO */
+.logo-img{
+    width: 40px;
+}
+
+/* TOTALEs */
+.total{
+    cursor: default !important;
+}
+
+/* BOTON AGRUPADOR */
+.botonAgrupador{
+    width: 300px !important;
+    height: 200px !important;
+    
+}
+
+
+
+.botonSubgrupo{
+    width: 300px !important;
+    
+}
+
+.botonSubgrupo-col{
+    width: 300px !important;
+      
+}
+
+@media screen and (max-width:1556px){
+    .botonAgrupador{
+        width: 280px !important;
+        height: 180px !important;
+        
+    } 
+    .botonSubgrupo{
+        width: 280px !important;
+        
+    }
+    
+    .botonSubgrupo-col{
+        width: 280px !important;
+          
+    }
+}
+
+
+@media screen and (max-width:1456px){
+    .botonAgrupador{
+        width: 260px !important;
+        height: 160px !important;
+        
+    } 
+    .botonSubgrupo{
+        width: 260px !important;
+        
+    }
+    
+    .botonSubgrupo-col{
+        width: 260px !important;
+          
+    }
+}
